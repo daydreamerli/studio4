@@ -10,7 +10,7 @@ const User = require('./api/models/userModel');
 /*const mongoUrl = config.get('mongoUrl');*/
 var url = 'mongodb://teamB:asd123@cluster0-shard-00-00.szped.mongodb.net:27017,cluster0-shard-00-01.szped.mongodb.net:27017,cluster0-shard-00-02.szped.mongodb.net:27017/teambBackend?ssl=true&replicaSet=atlas-xqt4p7-shard-0&authSource=admin&retryWrites=true&w=majority'
 //const mongoUrl = mongoose.connect(url)
-/* eslint-disable no-console */
+
 
 faker.locale = 'pt_BR';
 
